@@ -109,6 +109,9 @@
     max-height: 2.5em;
     overflow: hidden;
     color: $font-color;
+    width: 80%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
   }
 
   &__trigger {

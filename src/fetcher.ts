@@ -69,7 +69,7 @@ export const buildKiteQuery = (
                 startedAt
                 finishedAt
                 url
-                jobs(first: 100, order: RECENTLY_ASSIGNED) {
+                jobs(first: 1, order: RECENTLY_ASSIGNED) {
                   edges {
                     node {
                        ... on JobTypeCommand {
